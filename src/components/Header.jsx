@@ -47,10 +47,10 @@ export default function Header() {
                     </ul>
 
                     {/*Menu Mobile*/}
-                    <ul className="lg:hidden relative flex justify-between gap-6">
+                    <ul className="lg:hidden relative flex justify-between">
                         <li className="relative rounded-lg font-medium hover:border hover:bg-scale-100/5  hover:border-scale-300/50 hover:text-brand-color">
                             <div onClick={click} className="flex cursor-pointer items-center justify-center p-2">{openMenu? <TfiClose /> : <CiMenuFries />}</div>
-                            <ul className={`${openMenu? 'block' : 'hidden'} absolute right-0 mt-3 p-2 bg-white rounded-lg`}>
+                            <ul className={`${openMenu? 'block' : 'hidden'} absolute right-0 mt-3 p-2 bg-white flex flex-col  gap-6 rounded-lg`}>
 
                                 <Link href="/"><li className="font-medium hover:border-b hover:border-brand-color hover:text-brand-color  py-1 px-1 transition ease-in-out delay-150 duration-150">Home</li></Link>
 
@@ -63,7 +63,7 @@ export default function Header() {
                                  {/*SubMenu*/}
                                 <li onClick={clickSub} className="relative flex flex-col items-start justify-center font-medium hover:border-b hover:border-brand-color hover:text-brand-color py-1 px-1 transition ease-in-out delay-150 duration-150">
                                     <div className="flex cursor-pointer items-center">Social {openSubMenu? <FiChevronUp /> : <FiChevronDown />}</div>
-                                    <ul className={`${openSubMenu? 'block' : 'hidden'} left-0 p-1 bg-white rounded-b-lg transition ease-in-out delay-500 duration-500`}>
+                                    <ul className={`${openSubMenu? 'block' : 'hidden'} left-0 p-1 flex flex-col bg-white rounded-b-lg transition ease-in-out delay-500 duration-500`}>
                                         <Link target="_blanck" href="https://github.com/wictorluciano"><li className="font-medium text-xs hover:border-b hover:border-brand-color hover:text-brand-color py-2 transition ease-in-out delay-150 duration-150">GitHub</li></Link>
                                         <Link target="_blanck" href="https://www.linkedin.com/in/wictorluciano/"><li className="font-medium text-xs hover:border-b hover:border-brand-color hover:text-brand-color py-2 transition ease-in-out delay-150 duration-150">LinkedIn</li></Link>
                                     </ul>
