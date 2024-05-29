@@ -2,21 +2,23 @@
 
 **Projeto criado com React e Next para o Desafio Code Explorer da Front End - Fusion**
 
-**Desafios**
-
- ✔ 1. Página Inicial
- ✔ 2. Galeria de Imagens
- ✔ 3. Formulario de Contato
- ✔ 4. Menu Dropdown com Submenu
- ✔ 5. Responsividade 
-
 <a href="https://wictor-code-explorer.netlify.app/"> <img src="./public/readme.png"></a>
 
-## 🔗 Projeto:
+🔗 [Deploy](https://wictor-code-explorer.netlify.app/)
 
-[Deploy](https://wictor-code-explorer.netlify.app/)
+🔗 [Figma](https://www.figma.com/design/MSbB8AbWwMoPIumIimV8bS/Untitled?t=zy12p6ghv1tbRoJm-1)
 
-[Figma](https://www.figma.com/design/MSbB8AbWwMoPIumIimV8bS/Untitled?t=zy12p6ghv1tbRoJm-1)
+## 🛠 Desafio:
+
+✔ 1. Página Inicial
+
+✔ 2. Galeria de Imagens
+
+✔ 3. Formulario de Contato
+
+✔ 4. Menu Dropdown com Submenu
+
+✔ 5. Responsividade 
 
 ## 💻 Tech Stack
 
