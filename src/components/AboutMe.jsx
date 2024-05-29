@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section>
             <Responsive>
-                <div className="flex flex-col gap-6 mx-10 my-10 md:w-[500px] xl:w-[800px]">
+                <div className="flex flex-col gap-6 my-10 md:w-[500px] xl:w-[800px]">
                     <h1 className="font-semibold text-2xl md:text-3xl xl:text-[32px]">Sobre mim</h1>
                     <div className="flex flex-col items-center gap-4 bg-scale-300 shadow-md rounded-md  py-10 px-10">
                         <h2 className="block font-semibold text-center text-xl md:text-2xl xl:text-3xl">Wictor Luciano</h2>

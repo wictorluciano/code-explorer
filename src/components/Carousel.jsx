@@ -19,7 +19,7 @@ export default function Carousel({children : images}){
     return(
         <div className={`${modal? "transition ease-in-out delay-150 duration-500 lg:scale-125 md:scale-105 scale-105 lg:my-10" : "transition-none"} relative cursor-pointer`}>
             <div onClick={click} className="overflow-hidden rounded-lg">
-                <div className="flex max-w-[600px] h-[400px] transition-transform ease-out duration-500" style={{ transform: `translateX(-${curr * 100}%)` }}>{images}</div>
+                <div className="flex max-w-[600px] max-h-[400px] transition-transform ease-out duration-500" style={{ transform: `translateX(-${curr * 100}%)` }}>{images}</div>
             </div>
             <div onClick={click} className={`${modal? "absolute" : "hidden"} top-0  right-0 flex items-center justify-between p-4`}>
                 <button className="rounded-full shadow bg-white/70 px-2 text-black/80 hover:bg-white hover:text-black">x</button>
