@@ -10,13 +10,13 @@
  ✔ 4. Menu Dropdown com Submenu
  ✔ 5. Responsividade 
 
-<a href="***LINK-DO-PROJETO***"> <img src="./public/readme.png"></a>
+<a href="https://wictor-code-explorer.netlify.app/"> <img src="./public/readme.png"></a>
 
 ## 🔗 Projeto:
 
-[Deploy](***LINK-DO-PROJETO***)
+[Deploy](https://wictor-code-explorer.netlify.app/)
 
-[Figma](https://www.figma.com/design/JgRQIZ5Ea55xVbRJ58xu1F/Modelo?node-id=117-16)
+[Figma](https://www.figma.com/design/MSbB8AbWwMoPIumIimV8bS/Untitled?t=zy12p6ghv1tbRoJm-1)
 
 ## 💻 Tech Stack
 
